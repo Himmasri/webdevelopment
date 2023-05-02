@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin:0 ;
+    padding:0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 72vh;
+    width: 18vw;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    justify-self: space-around;
+    font-family:'Outfit', sans-serif;
+}
+img{
+    height: 35vh;
+    width: 16vw;
+    margin-left:15px;
+    margin-top:20px;
+    border-radius:10px;
+}
+.box > p{
+    font-size: 18px;
+    margin-top:20px;
+    margin-left: 15px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    font-weight: bold;
+}
+.txt > p {
+    color : hsl(215, 32%, 62%);
+
+    margin-top:20px;
+    margin-left: 15px;
+    font-size:15px;
+}
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:7px;
+}
+.left {
+    display: flex;
+   justify-content:flex-start;
+}
+
+.left>img{
+    height: 15px;
+    width: 10px;
+}
+.left>p{
+    text-align: center;
+    color:hsl(178, 100%, 50%);
+    margin-left: 6px;
+    margin-top: 17px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.right{
+    display: flex;
+    flex-direction:row;
+    justify-content: right;
+    
+}
+.right>img{
+    height: 1rem;
+    width: 1rem;
+    flex-direction: row;
+    margin-right:5px;
+}
+.right > p{
+    display: flex;
+    color : hsl(215, 51%, 70%);
+    margin-top: 18px;
+    margin-right: 20px;
+
+}
+.line{
+    width: 15rem;
+    margin-left: 17px;
+    margin-top: 17px;
+    
+}
+.line > hr{
+
+    color:hsl(215, 32%, 27%);
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    
+}
+.foot>img{
+    height: 25px;
+    width: 23px;
+    color: white;
+    border-radius: 50%;
+    border:1px solid #ffff;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+.foot > p{
+    margin-top: 18px;
+    margin-left: 10px;
+    color:hsl(215, 51%, 70%);
+}
+.foot > span {
+    margin-top: 18px;
+    margin-left: 10px;
+    color: white;
+}
